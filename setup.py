@@ -1,13 +1,15 @@
+import setuptools
+
 with open("requirements.txt", "r", encoding="utf-8") as fh:
     requirements = [line.strip() for line in fh]
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-setup(
+setuptools.setup(
     name="media-downloader",
     vesion="0.1.0",
-    author="Kissada Waravit"
+    author="Kissada Waravit",
     author_email = "Kissada.Waravit@gmail.com",
     description="A tool for batch downloading media files from URLs in a CSV file",
     long_description=long_description,
