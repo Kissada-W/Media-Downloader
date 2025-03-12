@@ -8,7 +8,7 @@ setup(
     name="media-downloader",
     vesion="0.1.0",
     author="Kissada Waravit"
-    "author_email = "Kissada.Waravit@gmail.com",
+    author_email = "Kissada.Waravit@gmail.com",
     description="A tool for batch downloading media files from URLs in a CSV file",
     long_description=long_description,
     long_description_content_type="text/markdown",
