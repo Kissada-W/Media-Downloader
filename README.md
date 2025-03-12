@@ -116,7 +116,7 @@ However, you can override this by specifying a maximum number of concurrent down
 
 ## ⚠️ Limitations
 
-- The script assumes URLs are in columns containing specific keywords ("displayUrl", "images", "videoUrl")
+- The script assumes URLs are in columns containing specific keywords ("displayUrl", "images", "videoUrl", "videos")
 - Maximum of 20 child posts per row are checked (for carousel/multi-image posts)
 - Some websites may block or throttle multiple concurrent requests
 
