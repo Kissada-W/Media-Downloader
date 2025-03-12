@@ -19,7 +19,7 @@ setuptools.setup(
         "Bug Reports": "https://github.com/Kissada-W/Media-Downloader/issues",
         "Source": "https://github.com/Kissada-W/Media-Downloader",
     },
-    packages=find_packages(),
+    packages=setuptools.find_packages(),
     classifies=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
